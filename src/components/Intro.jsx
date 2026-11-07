@@ -1,0 +1,17 @@
+function Intro(){
+    const userName = "Kelechi John";
+    const age = 30;
+    const skills = ["HTML", "CSS", "JavaScript", "React"]
+
+    return(
+        <div>
+            <h2>
+             {userName}
+            </h2>
+
+            <p>
+            
+            </p>
+        </div>
+    )
+}

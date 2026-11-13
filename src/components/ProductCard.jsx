@@ -1,10 +1,11 @@
-function ProductCard () {
+const ProductCard = () => {
     return (
-        <div >
-            <h2>Product Name</h2>
-            <p>HP Laptop</p>
-            <h3>Price</h3>
-            <p>$99.99</p>
+        <div>
+            <h2>Products</h2>
+
+            <h3>Laptop</h3>
+
+            <span>$1200</span>
         </div>
     )
 }

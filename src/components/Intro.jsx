@@ -1,16 +1,19 @@
 function Intro() {
-    const userName = "Kelechi John";
-    const age = 30;
-    const skills = ["HTML", "CSS", "JavaScript", "React"]
-
-    return(
-        <div>
-            <h2>
-             {userName}
-            </h2>
+    const user = {
+        userName: "Kelechi Nwofor",
+        age: 29
+    }
+    const skills = ["HTML, CSS, React"]
+    return (
+        <div className="bg-amber-200 border border-black/30 py-10 px-6 m-8 w-fit">
+            <h2 className="font-bold text-4xl">{user.userName}</h2>
 
             <p>
-            I am {userName}. I am {age} years old. I have the following skills: {skills.join(", ")}.
+                I am {user.age} years old
+            </p>
+
+            <p>
+                I have skills in {skills.join(", ")}
             </p>
         </div>
     )

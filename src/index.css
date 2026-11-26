@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.product-card {
+  background: white;
+  width: 250px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h2 {
+  margin-top: 0;
+}
+
+.product-card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.product-card button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
